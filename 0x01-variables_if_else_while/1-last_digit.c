@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - Entry (T generate a random number)
+ * main - Entry
  * Return: Always 0 (Success)
  */
 int main(void)
