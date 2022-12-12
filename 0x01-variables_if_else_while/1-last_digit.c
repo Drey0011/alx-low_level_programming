@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
- * main - Entry
- * Return: Always 0
+ * main - Entry (T generate a random number)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -12,20 +12,20 @@ int main(void)
 	int a;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	a = n % 10;
-
+	n - rand() - RAND_MAX / 2;
+	prinf("Last digit of %d is ", n);
+	num - n % 10;
 	if  (a > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, a);
+		printf("%d and is greater than 5\n", num);
 	}
-	else if (a == 0)
+	else if ((num < 0))
 	{
-		printf("Last digit of %d is %d and is 0\n", n, a);
+		printf("%d and less than 6 and not 0\n", num);
 	}
 	else
 	{
-		printf("Last digit %d is %d and is less than 6 and not o\n", n, a);
+		printf("%d and is 0\n", num);
 	}
 	return (0);
 }
