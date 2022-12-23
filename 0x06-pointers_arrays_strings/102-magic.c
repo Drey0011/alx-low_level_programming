@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - magic task
+ *
+ * Return: 0 if succesful else 1 on error
+ */
 int main(void)
 {
 	int n;
